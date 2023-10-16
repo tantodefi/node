@@ -25,8 +25,8 @@ import (
 	ethermint "github.com/evmos/ethermint/types"
 	evmtypes "github.com/evmos/ethermint/x/evm/types"
 	"github.com/tendermint/tendermint/libs/log"
-	"github.com/zeta-chain/zetacore/rpc/backend"
-	rpctypes "github.com/zeta-chain/zetacore/rpc/types"
+	"github.com/zeta-chain/node/rpc/backend"
+	rpctypes "github.com/zeta-chain/node/rpc/types"
 )
 
 // The Ethereum API allows applications to connect to an Evmos node that is

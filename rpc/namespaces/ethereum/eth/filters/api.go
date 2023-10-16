@@ -31,7 +31,7 @@ import (
 	coretypes "github.com/tendermint/tendermint/rpc/core/types"
 	rpcclient "github.com/tendermint/tendermint/rpc/jsonrpc/client"
 	tmtypes "github.com/tendermint/tendermint/types"
-	"github.com/zeta-chain/zetacore/rpc/types"
+	"github.com/zeta-chain/node/rpc/types"
 )
 
 // FilterAPI gathers

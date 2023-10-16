@@ -7,12 +7,12 @@ import (
 
 	"github.com/cosmos/cosmos-sdk/client/tx"
 	"github.com/spf13/cast"
-	"github.com/zeta-chain/zetacore/common"
+	"github.com/zeta-chain/node/common"
 
 	"github.com/cosmos/cosmos-sdk/client"
 	"github.com/cosmos/cosmos-sdk/client/flags"
 	"github.com/spf13/cobra"
-	"github.com/zeta-chain/zetacore/x/crosschain/types"
+	"github.com/zeta-chain/node/x/crosschain/types"
 )
 
 func CmdShowTSS() *cobra.Command {

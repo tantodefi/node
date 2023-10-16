@@ -8,8 +8,8 @@ import (
 	"github.com/btcsuite/btcutil"
 	ethtypes "github.com/ethereum/go-ethereum/core/types"
 	"github.com/ethereum/go-ethereum/rlp"
-	bitcoin "github.com/zeta-chain/zetacore/common/bitcoin"
-	"github.com/zeta-chain/zetacore/common/ethereum"
+	bitcoin "github.com/zeta-chain/node/common/bitcoin"
+	"github.com/zeta-chain/node/common/ethereum"
 )
 
 // ErrInvalidProof is a error type for invalid proofs embedding the underlying error

@@ -7,10 +7,10 @@ import (
 
 	"cosmossdk.io/math"
 	"github.com/stretchr/testify/require"
-	testkeeper "github.com/zeta-chain/zetacore/testutil/keeper"
-	"github.com/zeta-chain/zetacore/testutil/sample"
-	"github.com/zeta-chain/zetacore/x/crosschain/types"
-	observertypes "github.com/zeta-chain/zetacore/x/observer/types"
+	testkeeper "github.com/zeta-chain/node/testutil/keeper"
+	"github.com/zeta-chain/node/testutil/sample"
+	"github.com/zeta-chain/node/x/crosschain/types"
+	observertypes "github.com/zeta-chain/node/x/observer/types"
 )
 
 func TestKeeper_CheckAndUpdateCctxGasPrice(t *testing.T) {

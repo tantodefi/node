@@ -5,10 +5,10 @@ import (
 	"github.com/cosmos/cosmos-sdk/server"
 	svrcmd "github.com/cosmos/cosmos-sdk/server/cmd"
 	"github.com/rs/zerolog"
-	"github.com/zeta-chain/zetacore/zetaclient/config"
+	"github.com/zeta-chain/node/zetaclient/config"
 
-	"github.com/zeta-chain/zetacore/cmd"
-	"github.com/zeta-chain/zetacore/common/cosmos"
+	"github.com/zeta-chain/node/cmd"
+	"github.com/zeta-chain/node/common/cosmos"
 
 	//mcconfig "github.com/Meta-Protocol/zetacore/metaclient/config"
 	"github.com/cosmos/cosmos-sdk/types"
@@ -17,7 +17,7 @@ import (
 	"os"
 	"time"
 
-	"github.com/zeta-chain/zetacore/app"
+	"github.com/zeta-chain/node/app"
 )
 
 var (

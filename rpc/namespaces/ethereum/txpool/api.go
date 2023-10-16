@@ -18,7 +18,7 @@ package txpool
 import (
 	"github.com/ethereum/go-ethereum/common/hexutil"
 	"github.com/tendermint/tendermint/libs/log"
-	"github.com/zeta-chain/zetacore/rpc/types"
+	"github.com/zeta-chain/node/rpc/types"
 )
 
 // PublicAPI offers and API for the transaction pool. It only operates on data that is non-confidential.

@@ -8,8 +8,8 @@ import (
 	"github.com/cosmos/cosmos-sdk/testutil/testdata"
 	"github.com/rs/zerolog"
 	"github.com/stretchr/testify/assert"
-	"github.com/zeta-chain/zetacore/common"
-	"github.com/zeta-chain/zetacore/common/cosmos"
+	"github.com/zeta-chain/node/common"
+	"github.com/zeta-chain/node/common/cosmos"
 )
 
 func Test_LoadTssFilesFromDirectory(t *testing.T) {

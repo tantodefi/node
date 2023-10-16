@@ -8,12 +8,12 @@ import (
 	"cosmossdk.io/math"
 	sdk "github.com/cosmos/cosmos-sdk/types"
 	"github.com/cosmos/cosmos-sdk/x/authz"
-	"github.com/zeta-chain/zetacore/zetaclient/config"
+	"github.com/zeta-chain/node/zetaclient/config"
 	"gitlab.com/thorchain/tss/go-tss/blame"
 
-	"github.com/zeta-chain/zetacore/common"
-	"github.com/zeta-chain/zetacore/x/crosschain/types"
-	observerTypes "github.com/zeta-chain/zetacore/x/observer/types"
+	"github.com/zeta-chain/node/common"
+	"github.com/zeta-chain/node/x/crosschain/types"
+	observerTypes "github.com/zeta-chain/node/x/observer/types"
 )
 
 const (

@@ -4,11 +4,11 @@ import (
 	sdk "github.com/cosmos/cosmos-sdk/types"
 	ethcommon "github.com/ethereum/go-ethereum/common"
 	"github.com/rs/zerolog"
-	"github.com/zeta-chain/zetacore/common"
-	"github.com/zeta-chain/zetacore/common/cosmos"
-	"github.com/zeta-chain/zetacore/zetaclient"
-	"github.com/zeta-chain/zetacore/zetaclient/config"
-	"github.com/zeta-chain/zetacore/zetaclient/metrics"
+	"github.com/zeta-chain/node/common"
+	"github.com/zeta-chain/node/common/cosmos"
+	"github.com/zeta-chain/node/zetaclient"
+	"github.com/zeta-chain/node/zetaclient/config"
+	"github.com/zeta-chain/node/zetaclient/metrics"
 )
 
 func CreateAuthzSigner(granter string, grantee sdk.AccAddress) {

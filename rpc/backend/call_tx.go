@@ -32,7 +32,7 @@ import (
 	ethermint "github.com/evmos/ethermint/types"
 	evmtypes "github.com/evmos/ethermint/x/evm/types"
 	"github.com/pkg/errors"
-	rpctypes "github.com/zeta-chain/zetacore/rpc/types"
+	rpctypes "github.com/zeta-chain/node/rpc/types"
 	"google.golang.org/grpc/codes"
 	"google.golang.org/grpc/status"
 )

@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/zeta-chain/zetacore/cmd/zetacored/config"
+	"github.com/zeta-chain/node/cmd/zetacored/config"
 
 	"github.com/cosmos/cosmos-sdk/baseapp"
 	"github.com/cosmos/cosmos-sdk/crypto/hd"
@@ -17,7 +17,7 @@ import (
 
 	tmdb "github.com/tendermint/tm-db"
 
-	"github.com/zeta-chain/zetacore/app"
+	"github.com/zeta-chain/node/app"
 )
 
 // DefaultConfig will initialize config for the network with custom application,

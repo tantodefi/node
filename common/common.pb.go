@@ -11,8 +11,8 @@ import (
 
 	_ "github.com/cosmos/gogoproto/gogoproto"
 	proto "github.com/gogo/protobuf/proto"
-	bitcoin "github.com/zeta-chain/zetacore/common/bitcoin"
-	ethereum "github.com/zeta-chain/zetacore/common/ethereum"
+	bitcoin "github.com/zeta-chain/node/common/bitcoin"
+	ethereum "github.com/zeta-chain/node/common/ethereum"
 )
 
 // Reference imports to suppress errors if they are not otherwise used.

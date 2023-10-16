@@ -15,14 +15,14 @@ import (
 	"github.com/stretchr/testify/require"
 	tmproto "github.com/tendermint/tendermint/proto/tendermint/types"
 	tmtypes "github.com/tendermint/tendermint/types"
-	"github.com/zeta-chain/zetacore/cmd/zetacored/config"
-	emissionsModuleTypes "github.com/zeta-chain/zetacore/x/emissions/types"
+	"github.com/zeta-chain/node/cmd/zetacored/config"
+	emissionsModuleTypes "github.com/zeta-chain/node/x/emissions/types"
 
 	//"github.com/ignite-hq/cli/ignite/pkg/cosmoscmd"
 	abci "github.com/tendermint/tendermint/abci/types"
 	"github.com/tendermint/tendermint/libs/log"
 	tmdb "github.com/tendermint/tm-db"
-	"github.com/zeta-chain/zetacore/app"
+	"github.com/zeta-chain/node/app"
 )
 
 func Setup(isCheckTx bool) *app.App {

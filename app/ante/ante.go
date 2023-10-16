@@ -20,7 +20,7 @@ import (
 	"runtime/debug"
 
 	ethante "github.com/evmos/ethermint/app/ante"
-	cctxtypes "github.com/zeta-chain/zetacore/x/crosschain/types"
+	cctxtypes "github.com/zeta-chain/node/x/crosschain/types"
 
 	tmlog "github.com/tendermint/tendermint/libs/log"
 

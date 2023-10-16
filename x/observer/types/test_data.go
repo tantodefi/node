@@ -5,7 +5,7 @@ import (
 
 	sdk "github.com/cosmos/cosmos-sdk/types"
 	"github.com/tendermint/tendermint/crypto"
-	"github.com/zeta-chain/zetacore/common"
+	"github.com/zeta-chain/node/common"
 )
 
 func CreateObserverMapperList(items int, chain common.Chain) (list []*ObserverMapper) {

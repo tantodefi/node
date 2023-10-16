@@ -9,10 +9,10 @@ import (
 	"time"
 
 	"github.com/ethereum/go-ethereum/accounts/abi/bind"
-	"github.com/zeta-chain/zetacore/common"
-	"github.com/zeta-chain/zetacore/contrib/localnet/orchestrator/smoketest/contracts/testzrc20"
-	"github.com/zeta-chain/zetacore/testutil/sample"
-	fungibletypes "github.com/zeta-chain/zetacore/x/fungible/types"
+	"github.com/zeta-chain/node/common"
+	"github.com/zeta-chain/node/contrib/localnet/orchestrator/smoketest/contracts/testzrc20"
+	"github.com/zeta-chain/node/testutil/sample"
+	fungibletypes "github.com/zeta-chain/node/x/fungible/types"
 )
 
 // TestUpdateBytecode tests updating the bytecode of a zrc20 and interact with it

@@ -5,7 +5,7 @@ import (
 	"testing"
 
 	sdk "github.com/cosmos/cosmos-sdk/types"
-	"github.com/zeta-chain/zetacore/x/observer/types"
+	"github.com/zeta-chain/node/x/observer/types"
 )
 
 func setupMsgServer(t testing.TB) (types.MsgServer, context.Context) {

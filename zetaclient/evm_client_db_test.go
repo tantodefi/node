@@ -9,7 +9,7 @@ import (
 	ethtypes "github.com/ethereum/go-ethereum/core/types"
 	"github.com/ethereum/go-ethereum/crypto"
 	"github.com/stretchr/testify/suite"
-	clienttypes "github.com/zeta-chain/zetacore/zetaclient/types"
+	clienttypes "github.com/zeta-chain/node/zetaclient/types"
 	"gorm.io/driver/sqlite"
 	"gorm.io/gorm"
 )

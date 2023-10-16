@@ -13,8 +13,8 @@ import (
 
 	ethcommon "github.com/ethereum/go-ethereum/common"
 	zetaconnectoreth "github.com/zeta-chain/protocol-contracts/pkg/contracts/evm/zetaconnector.eth.sol"
-	"github.com/zeta-chain/zetacore/contrib/localnet/orchestrator/smoketest/contracts/testdapp"
-	cctxtypes "github.com/zeta-chain/zetacore/x/crosschain/types"
+	"github.com/zeta-chain/node/contrib/localnet/orchestrator/smoketest/contracts/testdapp"
+	cctxtypes "github.com/zeta-chain/node/x/crosschain/types"
 )
 
 func (sm *SmokeTest) TestMessagePassing() {

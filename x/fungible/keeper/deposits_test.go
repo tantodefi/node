@@ -7,12 +7,12 @@ import (
 	"cosmossdk.io/math"
 
 	"github.com/stretchr/testify/require"
-	"github.com/zeta-chain/zetacore/common"
-	"github.com/zeta-chain/zetacore/testutil/contracts"
-	testkeeper "github.com/zeta-chain/zetacore/testutil/keeper"
-	"github.com/zeta-chain/zetacore/testutil/sample"
-	crosschaintypes "github.com/zeta-chain/zetacore/x/crosschain/types"
-	"github.com/zeta-chain/zetacore/x/fungible/types"
+	"github.com/zeta-chain/node/common"
+	"github.com/zeta-chain/node/testutil/contracts"
+	testkeeper "github.com/zeta-chain/node/testutil/keeper"
+	"github.com/zeta-chain/node/testutil/sample"
+	crosschaintypes "github.com/zeta-chain/node/x/crosschain/types"
+	"github.com/zeta-chain/node/x/fungible/types"
 )
 
 func TestKeeper_ZRC20DepositAndCallContract(t *testing.T) {

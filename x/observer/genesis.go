@@ -2,8 +2,8 @@ package observer
 
 import (
 	sdk "github.com/cosmos/cosmos-sdk/types"
-	"github.com/zeta-chain/zetacore/x/observer/keeper"
-	"github.com/zeta-chain/zetacore/x/observer/types"
+	"github.com/zeta-chain/node/x/observer/keeper"
+	"github.com/zeta-chain/node/x/observer/types"
 )
 
 // InitGenesis initializes the observer module's state from a provided genesis

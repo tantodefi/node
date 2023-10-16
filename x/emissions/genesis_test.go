@@ -4,11 +4,11 @@ import (
 	"testing"
 
 	"github.com/stretchr/testify/require"
-	keepertest "github.com/zeta-chain/zetacore/testutil/keeper"
-	"github.com/zeta-chain/zetacore/testutil/nullify"
-	"github.com/zeta-chain/zetacore/testutil/sample"
-	"github.com/zeta-chain/zetacore/x/emissions"
-	"github.com/zeta-chain/zetacore/x/emissions/types"
+	keepertest "github.com/zeta-chain/node/testutil/keeper"
+	"github.com/zeta-chain/node/testutil/nullify"
+	"github.com/zeta-chain/node/testutil/sample"
+	"github.com/zeta-chain/node/x/emissions"
+	"github.com/zeta-chain/node/x/emissions/types"
 )
 
 func TestGenesis(t *testing.T) {

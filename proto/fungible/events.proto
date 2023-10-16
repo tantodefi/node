@@ -5,7 +5,7 @@ import "common/common.proto";
 import "fungible/tx.proto";
 import "gogoproto/gogo.proto";
 
-option go_package = "github.com/zeta-chain/zetacore/x/fungible/types";
+option go_package = "github.com/zeta-chain/node/x/fungible/types";
 
 message EventSystemContractUpdated {
   string msg_type_url = 1;

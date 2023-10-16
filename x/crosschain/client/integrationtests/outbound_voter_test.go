@@ -7,10 +7,10 @@ import (
 	clitestutil "github.com/cosmos/cosmos-sdk/testutil/cli"
 	authcli "github.com/cosmos/cosmos-sdk/x/auth/client/cli"
 	authtypes "github.com/cosmos/cosmos-sdk/x/auth/types"
-	crosschainCli "github.com/zeta-chain/zetacore/x/crosschain/client/cli"
-	crosschaintypes "github.com/zeta-chain/zetacore/x/crosschain/types"
-	observerCli "github.com/zeta-chain/zetacore/x/observer/client/cli"
-	observerTypes "github.com/zeta-chain/zetacore/x/observer/types"
+	crosschainCli "github.com/zeta-chain/node/x/crosschain/client/cli"
+	crosschaintypes "github.com/zeta-chain/node/x/crosschain/types"
+	observerCli "github.com/zeta-chain/node/x/observer/client/cli"
+	observerTypes "github.com/zeta-chain/node/x/observer/types"
 )
 
 func (s *IntegrationTestSuite) TestCCTXOutBoundVoter() {

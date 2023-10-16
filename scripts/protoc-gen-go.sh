@@ -32,7 +32,7 @@ done
 cd ..
 
 # Move proto files to the right places.
-cp -r github.com/zeta-chain/zetacore/* ./
+cp -r github.com/zeta-chain/node/* ./
 rm -rf github.com
 
 # Format proto go imports.

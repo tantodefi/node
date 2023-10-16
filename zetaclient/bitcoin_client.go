@@ -26,12 +26,12 @@ import (
 	"github.com/btcsuite/btcutil"
 	lru "github.com/hashicorp/golang-lru"
 	"github.com/rs/zerolog"
-	"github.com/zeta-chain/zetacore/common"
-	"github.com/zeta-chain/zetacore/x/crosschain/types"
-	observertypes "github.com/zeta-chain/zetacore/x/observer/types"
-	"github.com/zeta-chain/zetacore/zetaclient/config"
-	metricsPkg "github.com/zeta-chain/zetacore/zetaclient/metrics"
-	clienttypes "github.com/zeta-chain/zetacore/zetaclient/types"
+	"github.com/zeta-chain/node/common"
+	"github.com/zeta-chain/node/x/crosschain/types"
+	observertypes "github.com/zeta-chain/node/x/observer/types"
+	"github.com/zeta-chain/node/zetaclient/config"
+	metricsPkg "github.com/zeta-chain/node/zetaclient/metrics"
+	clienttypes "github.com/zeta-chain/node/zetaclient/types"
 )
 
 var _ ChainClient = &BitcoinChainClient{}

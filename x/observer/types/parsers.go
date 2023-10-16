@@ -2,7 +2,7 @@ package types
 
 import (
 	sdk "github.com/cosmos/cosmos-sdk/types"
-	"github.com/zeta-chain/zetacore/common"
+	"github.com/zeta-chain/node/common"
 )
 
 func ConvertReceiveStatusToVoteType(status common.ReceiveStatus) VoteType {

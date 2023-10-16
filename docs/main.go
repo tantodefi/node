@@ -15,7 +15,7 @@ import (
 	"time"
 
 	"github.com/gorilla/mux"
-	"github.com/zeta-chain/zetacore/docs/openapi"
+	"github.com/zeta-chain/node/docs/openapi"
 )
 
 func main() {

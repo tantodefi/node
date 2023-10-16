@@ -5,7 +5,7 @@ import (
 	"strings"
 
 	eth "github.com/ethereum/go-ethereum/common"
-	"github.com/zeta-chain/zetacore/common/cosmos"
+	"github.com/zeta-chain/node/common/cosmos"
 )
 
 type Address string

@@ -7,7 +7,7 @@ import (
 	"testing"
 
 	"github.com/stretchr/testify/suite"
-	"github.com/zeta-chain/zetacore/testutil/network"
+	"github.com/zeta-chain/node/testutil/network"
 )
 
 func TestIntegrationTestSuite(t *testing.T) {

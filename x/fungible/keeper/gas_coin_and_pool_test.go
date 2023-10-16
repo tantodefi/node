@@ -9,9 +9,9 @@ import (
 	evmkeeper "github.com/evmos/ethermint/x/evm/keeper"
 	"github.com/stretchr/testify/require"
 
-	testkeeper "github.com/zeta-chain/zetacore/testutil/keeper"
-	fungiblekeeper "github.com/zeta-chain/zetacore/x/fungible/keeper"
-	"github.com/zeta-chain/zetacore/x/fungible/types"
+	testkeeper "github.com/zeta-chain/node/testutil/keeper"
+	fungiblekeeper "github.com/zeta-chain/node/x/fungible/keeper"
+	"github.com/zeta-chain/node/x/fungible/types"
 )
 
 // setupGasCoin is a helper function to setup the gas coin for testing

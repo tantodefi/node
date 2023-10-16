@@ -3,8 +3,8 @@ package types
 import (
 	sdk "github.com/cosmos/cosmos-sdk/types"
 	"github.com/cosmos/cosmos-sdk/x/auth/types"
-	"github.com/zeta-chain/zetacore/common"
-	zetaObserverTypes "github.com/zeta-chain/zetacore/x/observer/types"
+	"github.com/zeta-chain/node/common"
+	zetaObserverTypes "github.com/zeta-chain/node/x/observer/types"
 )
 
 // AccountKeeper defines the expected account keeper used for simulations (noalias)

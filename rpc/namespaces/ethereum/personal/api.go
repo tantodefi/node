@@ -31,7 +31,7 @@ import (
 	ethermint "github.com/evmos/ethermint/types"
 	evmtypes "github.com/evmos/ethermint/x/evm/types"
 	"github.com/tendermint/tendermint/libs/log"
-	"github.com/zeta-chain/zetacore/rpc/backend"
+	"github.com/zeta-chain/node/rpc/backend"
 )
 
 // PrivateAccountAPI is the personal_ prefixed set of APIs in the Web3 JSON-RPC spec.

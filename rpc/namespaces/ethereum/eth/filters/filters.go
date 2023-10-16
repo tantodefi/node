@@ -28,8 +28,8 @@ import (
 	"github.com/pkg/errors"
 	"github.com/tendermint/tendermint/libs/log"
 	tmrpctypes "github.com/tendermint/tendermint/rpc/core/types"
-	"github.com/zeta-chain/zetacore/rpc/backend"
-	"github.com/zeta-chain/zetacore/rpc/types"
+	"github.com/zeta-chain/node/rpc/backend"
+	"github.com/zeta-chain/node/rpc/types"
 )
 
 // BloomIV represents the bit indexes and value inside the bloom filter that belong

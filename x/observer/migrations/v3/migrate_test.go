@@ -4,10 +4,10 @@ import (
 	"testing"
 
 	"github.com/stretchr/testify/require"
-	keepertest "github.com/zeta-chain/zetacore/testutil/keeper"
-	"github.com/zeta-chain/zetacore/testutil/sample"
-	v3 "github.com/zeta-chain/zetacore/x/observer/migrations/v3"
-	"github.com/zeta-chain/zetacore/x/observer/types"
+	keepertest "github.com/zeta-chain/node/testutil/keeper"
+	"github.com/zeta-chain/node/testutil/sample"
+	v3 "github.com/zeta-chain/node/x/observer/migrations/v3"
+	"github.com/zeta-chain/node/x/observer/types"
 )
 
 func TestMigrateStore(t *testing.T) {

@@ -6,8 +6,8 @@ import (
 
 	"cosmossdk.io/math"
 	"github.com/cosmos/cosmos-sdk/crypto/keys/ed25519"
-	"github.com/zeta-chain/zetacore/common"
-	"github.com/zeta-chain/zetacore/x/crosschain/types"
+	"github.com/zeta-chain/node/common"
+	"github.com/zeta-chain/node/x/crosschain/types"
 )
 
 func OutTxTracker(t *testing.T, index string) types.OutTxTracker {

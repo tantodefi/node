@@ -6,9 +6,9 @@ import (
 	"github.com/cosmos/cosmos-sdk/client/flags"
 	clitestutil "github.com/cosmos/cosmos-sdk/testutil/cli"
 	tmcli "github.com/tendermint/tendermint/libs/cli"
-	"github.com/zeta-chain/zetacore/testutil/nullify"
-	"github.com/zeta-chain/zetacore/x/crosschain/client/cli"
-	"github.com/zeta-chain/zetacore/x/crosschain/types"
+	"github.com/zeta-chain/node/testutil/nullify"
+	"github.com/zeta-chain/node/x/crosschain/client/cli"
+	"github.com/zeta-chain/node/x/crosschain/types"
 )
 
 func (s *CliTestSuite) TestListOutTxTracker() {

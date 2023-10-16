@@ -2,7 +2,7 @@ package app
 
 import (
 	evmenc "github.com/evmos/ethermint/encoding"
-	//"github.com/zeta-chain/zetacore/app/params"
+	//"github.com/zeta-chain/node/app/params"
 	"github.com/cosmos/cosmos-sdk/simapp/params"
 )
 

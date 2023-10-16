@@ -18,8 +18,8 @@ import (
 	"github.com/rs/zerolog"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
-	"github.com/zeta-chain/zetacore/common"
-	"github.com/zeta-chain/zetacore/zetaclient/config"
+	"github.com/zeta-chain/node/common"
+	"github.com/zeta-chain/node/zetaclient/config"
 	. "gopkg.in/check.v1"
 )
 

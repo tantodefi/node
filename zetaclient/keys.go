@@ -14,9 +14,9 @@ import (
 	cryptotypes "github.com/cosmos/cosmos-sdk/crypto/types"
 	sdk "github.com/cosmos/cosmos-sdk/types"
 	"github.com/rs/zerolog/log"
-	"github.com/zeta-chain/zetacore/common"
-	"github.com/zeta-chain/zetacore/common/cosmos"
-	"github.com/zeta-chain/zetacore/zetaclient/config"
+	"github.com/zeta-chain/node/common"
+	"github.com/zeta-chain/node/common/cosmos"
+	"github.com/zeta-chain/node/zetaclient/config"
 )
 
 // Keys manages all the keys used by zeta client

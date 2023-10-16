@@ -16,9 +16,9 @@ import (
 	cdctypes "github.com/cosmos/cosmos-sdk/codec/types"
 	sdk "github.com/cosmos/cosmos-sdk/types"
 	"github.com/cosmos/cosmos-sdk/types/module"
-	"github.com/zeta-chain/zetacore/x/emissions/client/cli"
-	"github.com/zeta-chain/zetacore/x/emissions/keeper"
-	"github.com/zeta-chain/zetacore/x/emissions/types"
+	"github.com/zeta-chain/node/x/emissions/client/cli"
+	"github.com/zeta-chain/node/x/emissions/keeper"
+	"github.com/zeta-chain/node/x/emissions/types"
 )
 
 var (

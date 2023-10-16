@@ -1,7 +1,7 @@
 package zetaclient
 
 import (
-	"github.com/zeta-chain/zetacore/common"
+	"github.com/zeta-chain/node/common"
 )
 
 // Modify to update this from the core later

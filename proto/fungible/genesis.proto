@@ -6,7 +6,7 @@ import "fungible/params.proto";
 import "fungible/system_contract.proto";
 import "gogoproto/gogo.proto";
 
-option go_package = "github.com/zeta-chain/zetacore/x/fungible/types";
+option go_package = "github.com/zeta-chain/node/x/fungible/types";
 
 // GenesisState defines the fungible module's genesis state.
 message GenesisState {

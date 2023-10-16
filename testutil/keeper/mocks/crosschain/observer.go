@@ -4,9 +4,9 @@ package mocks
 
 import (
 	mock "github.com/stretchr/testify/mock"
-	common "github.com/zeta-chain/zetacore/common"
+	common "github.com/zeta-chain/node/common"
 
-	observertypes "github.com/zeta-chain/zetacore/x/observer/types"
+	observertypes "github.com/zeta-chain/node/x/observer/types"
 
 	types "github.com/cosmos/cosmos-sdk/types"
 )

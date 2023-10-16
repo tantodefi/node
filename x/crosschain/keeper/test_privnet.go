@@ -5,9 +5,9 @@ package keeper
 
 import (
 	sdk "github.com/cosmos/cosmos-sdk/types"
-	"github.com/zeta-chain/zetacore/common"
-	"github.com/zeta-chain/zetacore/x/crosschain/types"
-	zetaObserverTypes "github.com/zeta-chain/zetacore/x/observer/types"
+	"github.com/zeta-chain/node/common"
+	"github.com/zeta-chain/node/x/crosschain/types"
+	zetaObserverTypes "github.com/zeta-chain/node/x/observer/types"
 )
 
 func (k Keeper) TestWhitelistERC20(ctx sdk.Context) error {

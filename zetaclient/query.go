@@ -11,9 +11,9 @@ import (
 	"github.com/cosmos/cosmos-sdk/types/query"
 	upgradetypes "github.com/cosmos/cosmos-sdk/x/upgrade/types"
 	tmtypes "github.com/tendermint/tendermint/proto/tendermint/types"
-	"github.com/zeta-chain/zetacore/common"
-	"github.com/zeta-chain/zetacore/x/crosschain/types"
-	zetaObserverTypes "github.com/zeta-chain/zetacore/x/observer/types"
+	"github.com/zeta-chain/node/common"
+	"github.com/zeta-chain/node/x/crosschain/types"
+	zetaObserverTypes "github.com/zeta-chain/node/x/observer/types"
 	"google.golang.org/grpc"
 )
 

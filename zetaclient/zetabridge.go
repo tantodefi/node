@@ -6,7 +6,7 @@ import (
 
 	"github.com/cosmos/cosmos-sdk/simapp/params"
 
-	"github.com/zeta-chain/zetacore/common"
+	"github.com/zeta-chain/node/common"
 
 	"sync"
 
@@ -14,7 +14,7 @@ import (
 	"google.golang.org/grpc"
 
 	//"fmt"
-	"github.com/zeta-chain/zetacore/common/cosmos"
+	"github.com/zeta-chain/node/common/cosmos"
 	//"github.com/armon/go-metrics"
 	//"github.com/cosmos/cosmos-sdk/Client"
 	"github.com/cosmos/cosmos-sdk/codec"
@@ -34,10 +34,10 @@ import (
 	//"strconv"
 	//"strings"
 
-	"github.com/zeta-chain/zetacore/app"
-	crosschaintypes "github.com/zeta-chain/zetacore/x/crosschain/types"
-	observertypes "github.com/zeta-chain/zetacore/x/observer/types"
-	"github.com/zeta-chain/zetacore/zetaclient/config"
+	"github.com/zeta-chain/node/app"
+	crosschaintypes "github.com/zeta-chain/node/x/crosschain/types"
+	observertypes "github.com/zeta-chain/node/x/observer/types"
+	"github.com/zeta-chain/node/zetaclient/config"
 )
 
 // ZetaCoreBridge will be used to send tx to ZetaCore.

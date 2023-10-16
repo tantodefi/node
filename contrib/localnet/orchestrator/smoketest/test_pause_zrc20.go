@@ -9,9 +9,9 @@ import (
 	"math/big"
 	"time"
 
-	"github.com/zeta-chain/zetacore/contrib/localnet/orchestrator/smoketest/contracts/vault"
-	"github.com/zeta-chain/zetacore/testutil/sample"
-	fungibletypes "github.com/zeta-chain/zetacore/x/fungible/types"
+	"github.com/zeta-chain/node/contrib/localnet/orchestrator/smoketest/contracts/vault"
+	"github.com/zeta-chain/node/testutil/sample"
+	fungibletypes "github.com/zeta-chain/node/x/fungible/types"
 )
 
 func (sm *SmokeTest) TestPauseZRC20() {

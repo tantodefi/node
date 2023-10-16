@@ -9,7 +9,7 @@ import (
 	"math/big"
 	"time"
 
-	"github.com/zeta-chain/zetacore/common"
+	"github.com/zeta-chain/node/common"
 
 	ethcommon "github.com/ethereum/go-ethereum/common"
 	zetaconnectoreth "github.com/zeta-chain/protocol-contracts/pkg/contracts/evm/zetaconnector.eth.sol"

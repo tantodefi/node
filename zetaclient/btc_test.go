@@ -7,7 +7,7 @@ import (
 	"math/big"
 	"testing"
 
-	"github.com/zeta-chain/zetacore/common"
+	"github.com/zeta-chain/node/common"
 
 	"gorm.io/driver/sqlite"
 	"gorm.io/gorm"

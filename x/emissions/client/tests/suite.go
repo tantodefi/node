@@ -7,10 +7,10 @@ import (
 	sdk "github.com/cosmos/cosmos-sdk/types"
 	ethcfg "github.com/evmos/ethermint/cmd/config"
 	"github.com/stretchr/testify/suite"
-	"github.com/zeta-chain/zetacore/app"
-	cmdcfg "github.com/zeta-chain/zetacore/cmd/zetacored/config"
-	"github.com/zeta-chain/zetacore/testutil/network"
-	observerTypes "github.com/zeta-chain/zetacore/x/observer/types"
+	"github.com/zeta-chain/node/app"
+	cmdcfg "github.com/zeta-chain/node/cmd/zetacored/config"
+	"github.com/zeta-chain/node/testutil/network"
+	observerTypes "github.com/zeta-chain/node/x/observer/types"
 )
 
 type CliTestSuite struct {

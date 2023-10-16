@@ -6,8 +6,8 @@ import (
 	"github.com/cosmos/cosmos-sdk/client"
 	"github.com/cosmos/cosmos-sdk/crypto"
 	"github.com/spf13/cobra"
-	"github.com/zeta-chain/zetacore/common"
-	"github.com/zeta-chain/zetacore/common/cosmos"
+	"github.com/zeta-chain/node/common"
+	"github.com/zeta-chain/node/common/cosmos"
 )
 
 func AddTssToGenesisCmd() *cobra.Command {

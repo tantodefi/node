@@ -9,12 +9,12 @@ import (
 	"sync"
 	"time"
 
-	"github.com/zeta-chain/zetacore/common"
+	"github.com/zeta-chain/node/common"
 
 	"github.com/gorilla/mux"
 	"github.com/rs/zerolog"
 	"github.com/rs/zerolog/log"
-	"github.com/zeta-chain/zetacore/zetaclient/types"
+	"github.com/zeta-chain/node/zetaclient/types"
 )
 
 // TelemetryServer provide http endpoint for Tss server

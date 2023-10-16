@@ -38,7 +38,7 @@ import (
 	ethermint "github.com/evmos/ethermint/types"
 	evmtypes "github.com/evmos/ethermint/x/evm/types"
 	tmtypes "github.com/tendermint/tendermint/types"
-	rpctypes "github.com/zeta-chain/zetacore/rpc/types"
+	rpctypes "github.com/zeta-chain/node/rpc/types"
 )
 
 // Accounts returns the list of accounts available to this node.

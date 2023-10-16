@@ -8,9 +8,9 @@ import (
 
 	sdk "github.com/cosmos/cosmos-sdk/types"
 	sdkerrors "github.com/cosmos/cosmos-sdk/types/errors"
-	zetacommon "github.com/zeta-chain/zetacore/common"
-	"github.com/zeta-chain/zetacore/x/fungible/types"
-	zetaObserverTypes "github.com/zeta-chain/zetacore/x/observer/types"
+	zetacommon "github.com/zeta-chain/node/common"
+	"github.com/zeta-chain/node/x/fungible/types"
+	zetaObserverTypes "github.com/zeta-chain/node/x/observer/types"
 )
 
 // DeployFungibleCoinZRC20 deploys a fungible coin from a connected chains as a ZRC20 on ZetaChain.

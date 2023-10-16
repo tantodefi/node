@@ -7,7 +7,7 @@ import (
 	"strconv"
 	"testing"
 
-	"github.com/zeta-chain/zetacore/cmd/zetacored/config"
+	"github.com/zeta-chain/node/cmd/zetacored/config"
 
 	"github.com/cosmos/cosmos-sdk/crypto/keys/ed25519"
 	cryptotypes "github.com/cosmos/cosmos-sdk/crypto/types"
@@ -15,8 +15,8 @@ import (
 	stakingtypes "github.com/cosmos/cosmos-sdk/x/staking/types"
 	ethcommon "github.com/ethereum/go-ethereum/common"
 	"github.com/stretchr/testify/require"
-	"github.com/zeta-chain/zetacore/common"
-	"github.com/zeta-chain/zetacore/common/cosmos"
+	"github.com/zeta-chain/node/common"
+	"github.com/zeta-chain/node/common/cosmos"
 )
 
 var ErrSample = errors.New("sample error")

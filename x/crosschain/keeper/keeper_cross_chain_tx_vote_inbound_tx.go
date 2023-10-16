@@ -6,10 +6,10 @@ import (
 
 	sdk "github.com/cosmos/cosmos-sdk/types"
 	sdkerrors "github.com/cosmos/cosmos-sdk/types/errors"
-	"github.com/zeta-chain/zetacore/common"
-	"github.com/zeta-chain/zetacore/x/crosschain/types"
-	observerKeeper "github.com/zeta-chain/zetacore/x/observer/keeper"
-	observerTypes "github.com/zeta-chain/zetacore/x/observer/types"
+	"github.com/zeta-chain/node/common"
+	"github.com/zeta-chain/node/x/crosschain/types"
+	observerKeeper "github.com/zeta-chain/node/x/observer/keeper"
+	observerTypes "github.com/zeta-chain/node/x/observer/types"
 )
 
 // FIXME: use more specific error types & codes

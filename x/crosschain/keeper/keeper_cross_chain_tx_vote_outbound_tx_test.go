@@ -8,9 +8,9 @@ import (
 
 	"cosmossdk.io/math"
 	"github.com/stretchr/testify/require"
-	testkeeper "github.com/zeta-chain/zetacore/testutil/keeper"
-	"github.com/zeta-chain/zetacore/testutil/sample"
-	"github.com/zeta-chain/zetacore/x/crosschain/keeper"
+	testkeeper "github.com/zeta-chain/node/testutil/keeper"
+	"github.com/zeta-chain/node/testutil/sample"
+	"github.com/zeta-chain/node/x/crosschain/keeper"
 )
 
 func TestKeeper_FundGasStabilityPoolFromRemainingFees(t *testing.T) {

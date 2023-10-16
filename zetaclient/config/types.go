@@ -9,8 +9,8 @@ import (
 
 	ethcommon "github.com/ethereum/go-ethereum/common"
 	"github.com/rs/zerolog"
-	"github.com/zeta-chain/zetacore/common"
-	observertypes "github.com/zeta-chain/zetacore/x/observer/types"
+	"github.com/zeta-chain/node/common"
+	observertypes "github.com/zeta-chain/node/x/observer/types"
 )
 
 type ClientConfiguration struct {

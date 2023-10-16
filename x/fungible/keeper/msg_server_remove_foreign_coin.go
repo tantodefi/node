@@ -5,8 +5,8 @@ import (
 
 	sdk "github.com/cosmos/cosmos-sdk/types"
 	sdkerrors "github.com/cosmos/cosmos-sdk/types/errors"
-	"github.com/zeta-chain/zetacore/x/fungible/types"
-	zetaObserverTypes "github.com/zeta-chain/zetacore/x/observer/types"
+	"github.com/zeta-chain/node/x/fungible/types"
+	zetaObserverTypes "github.com/zeta-chain/node/x/observer/types"
 )
 
 // RemoveForeignCoin removes a coin from the list of foreign coins in the module's state.

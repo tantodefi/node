@@ -11,8 +11,8 @@ import (
 	stakingkeeper "github.com/cosmos/cosmos-sdk/x/staking/keeper"
 	"github.com/stretchr/testify/require"
 	tmdb "github.com/tendermint/tm-db"
-	"github.com/zeta-chain/zetacore/x/observer/keeper"
-	"github.com/zeta-chain/zetacore/x/observer/types"
+	"github.com/zeta-chain/node/x/observer/keeper"
+	"github.com/zeta-chain/node/x/observer/types"
 )
 
 func initObserverKeeper(

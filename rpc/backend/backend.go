@@ -34,8 +34,8 @@ import (
 	evmtypes "github.com/evmos/ethermint/x/evm/types"
 	"github.com/tendermint/tendermint/libs/log"
 	tmrpctypes "github.com/tendermint/tendermint/rpc/core/types"
-	rpctypes "github.com/zeta-chain/zetacore/rpc/types"
-	"github.com/zeta-chain/zetacore/server/config"
+	rpctypes "github.com/zeta-chain/node/rpc/types"
+	"github.com/zeta-chain/node/server/config"
 )
 
 // BackendI implements the Cosmos and EVM backend.

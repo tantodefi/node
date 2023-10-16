@@ -13,8 +13,8 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 	"github.com/tendermint/tendermint/crypto"
-	"github.com/zeta-chain/zetacore/x/crosschain/types"
-	mc "github.com/zeta-chain/zetacore/zetaclient"
+	"github.com/zeta-chain/node/x/crosschain/types"
+	mc "github.com/zeta-chain/node/zetaclient"
 )
 
 func TestMsgSetNodeKeys_ValidateBasic(t *testing.T) {

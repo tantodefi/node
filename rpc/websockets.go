@@ -40,10 +40,10 @@ import (
 	"github.com/tendermint/tendermint/libs/log"
 	rpcclient "github.com/tendermint/tendermint/rpc/jsonrpc/client"
 	tmtypes "github.com/tendermint/tendermint/types"
-	"github.com/zeta-chain/zetacore/rpc/ethereum/pubsub"
-	rpcfilters "github.com/zeta-chain/zetacore/rpc/namespaces/ethereum/eth/filters"
-	"github.com/zeta-chain/zetacore/rpc/types"
-	"github.com/zeta-chain/zetacore/server/config"
+	"github.com/zeta-chain/node/rpc/ethereum/pubsub"
+	rpcfilters "github.com/zeta-chain/node/rpc/namespaces/ethereum/eth/filters"
+	"github.com/zeta-chain/node/rpc/types"
+	"github.com/zeta-chain/node/server/config"
 )
 
 const (

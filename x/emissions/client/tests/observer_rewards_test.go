@@ -8,11 +8,11 @@ import (
 	clitestutil "github.com/cosmos/cosmos-sdk/testutil/cli"
 	sdk "github.com/cosmos/cosmos-sdk/types"
 	"github.com/cosmos/cosmos-sdk/x/bank/client/cli"
-	"github.com/zeta-chain/zetacore/cmd/zetacored/config"
-	emmisonscli "github.com/zeta-chain/zetacore/x/emissions/client/cli"
-	emmisonstypes "github.com/zeta-chain/zetacore/x/emissions/types"
-	observerCli "github.com/zeta-chain/zetacore/x/observer/client/cli"
-	observerTypes "github.com/zeta-chain/zetacore/x/observer/types"
+	"github.com/zeta-chain/node/cmd/zetacored/config"
+	emmisonscli "github.com/zeta-chain/node/x/emissions/client/cli"
+	emmisonstypes "github.com/zeta-chain/node/x/emissions/types"
+	observerCli "github.com/zeta-chain/node/x/observer/client/cli"
+	observerTypes "github.com/zeta-chain/node/x/observer/types"
 )
 
 func (s *CliTestSuite) TestObserverRewards() {

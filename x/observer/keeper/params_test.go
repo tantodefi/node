@@ -9,7 +9,7 @@ import (
 	"github.com/tendermint/tendermint/crypto"
 
 	"github.com/stretchr/testify/require"
-	"github.com/zeta-chain/zetacore/x/observer/types"
+	"github.com/zeta-chain/node/x/observer/types"
 )
 
 func TestGetParams(t *testing.T) {

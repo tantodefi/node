@@ -16,9 +16,9 @@ import (
 	cdctypes "github.com/cosmos/cosmos-sdk/codec/types"
 	sdk "github.com/cosmos/cosmos-sdk/types"
 	"github.com/cosmos/cosmos-sdk/types/module"
-	"github.com/zeta-chain/zetacore/x/fungible/client/cli"
-	"github.com/zeta-chain/zetacore/x/fungible/keeper"
-	"github.com/zeta-chain/zetacore/x/fungible/types"
+	"github.com/zeta-chain/node/x/fungible/client/cli"
+	"github.com/zeta-chain/node/x/fungible/keeper"
+	"github.com/zeta-chain/node/x/fungible/types"
 )
 
 var (

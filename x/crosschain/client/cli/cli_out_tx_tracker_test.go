@@ -5,10 +5,10 @@ import (
 	"testing"
 
 	"github.com/stretchr/testify/require"
-	"github.com/zeta-chain/zetacore/app"
-	"github.com/zeta-chain/zetacore/testutil/network"
-	"github.com/zeta-chain/zetacore/testutil/nullify"
-	"github.com/zeta-chain/zetacore/x/crosschain/types"
+	"github.com/zeta-chain/node/app"
+	"github.com/zeta-chain/node/testutil/network"
+	"github.com/zeta-chain/node/testutil/nullify"
+	"github.com/zeta-chain/node/x/crosschain/types"
 )
 
 func networkWithOutTxTrackerObjects(t *testing.T, n int) (*network.Network, []types.OutTxTracker) {

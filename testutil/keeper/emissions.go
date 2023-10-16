@@ -16,9 +16,9 @@ import (
 	"github.com/tendermint/tendermint/libs/log"
 	tmproto "github.com/tendermint/tendermint/proto/tendermint/types"
 	tmdb "github.com/tendermint/tm-db"
-	"github.com/zeta-chain/zetacore/x/emissions/keeper"
-	"github.com/zeta-chain/zetacore/x/emissions/types"
-	observerkeeper "github.com/zeta-chain/zetacore/x/observer/keeper"
+	"github.com/zeta-chain/node/x/emissions/keeper"
+	"github.com/zeta-chain/node/x/emissions/types"
+	observerkeeper "github.com/zeta-chain/node/x/observer/keeper"
 )
 
 func EmissionsKeeper(t testing.TB) (*keeper.Keeper, sdk.Context) {

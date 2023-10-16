@@ -89,25 +89,25 @@ import (
 	feemarketkeeper "github.com/evmos/ethermint/x/feemarket/keeper"
 	feemarkettypes "github.com/evmos/ethermint/x/feemarket/types"
 
-	"github.com/zeta-chain/zetacore/app/ante"
-	"github.com/zeta-chain/zetacore/docs/openapi"
-	srvflags "github.com/zeta-chain/zetacore/server/flags"
+	"github.com/zeta-chain/node/app/ante"
+	"github.com/zeta-chain/node/docs/openapi"
+	srvflags "github.com/zeta-chain/node/server/flags"
 
-	zetaCoreModule "github.com/zeta-chain/zetacore/x/crosschain"
-	zetaCoreModuleKeeper "github.com/zeta-chain/zetacore/x/crosschain/keeper"
-	zetaCoreModuleTypes "github.com/zeta-chain/zetacore/x/crosschain/types"
+	zetaCoreModule "github.com/zeta-chain/node/x/crosschain"
+	zetaCoreModuleKeeper "github.com/zeta-chain/node/x/crosschain/keeper"
+	zetaCoreModuleTypes "github.com/zeta-chain/node/x/crosschain/types"
 
-	emissionsModule "github.com/zeta-chain/zetacore/x/emissions"
-	emissionsModuleKeeper "github.com/zeta-chain/zetacore/x/emissions/keeper"
-	emissionsModuleTypes "github.com/zeta-chain/zetacore/x/emissions/types"
+	emissionsModule "github.com/zeta-chain/node/x/emissions"
+	emissionsModuleKeeper "github.com/zeta-chain/node/x/emissions/keeper"
+	emissionsModuleTypes "github.com/zeta-chain/node/x/emissions/types"
 
-	fungibleModule "github.com/zeta-chain/zetacore/x/fungible"
-	fungibleModuleKeeper "github.com/zeta-chain/zetacore/x/fungible/keeper"
-	fungibleModuleTypes "github.com/zeta-chain/zetacore/x/fungible/types"
+	fungibleModule "github.com/zeta-chain/node/x/fungible"
+	fungibleModuleKeeper "github.com/zeta-chain/node/x/fungible/keeper"
+	fungibleModuleTypes "github.com/zeta-chain/node/x/fungible/types"
 
-	zetaObserverModule "github.com/zeta-chain/zetacore/x/observer"
-	zetaObserverModuleKeeper "github.com/zeta-chain/zetacore/x/observer/keeper"
-	zetaObserverModuleTypes "github.com/zeta-chain/zetacore/x/observer/types"
+	zetaObserverModule "github.com/zeta-chain/node/x/observer"
+	zetaObserverModuleKeeper "github.com/zeta-chain/node/x/observer/keeper"
+	zetaObserverModuleTypes "github.com/zeta-chain/node/x/observer/types"
 )
 
 const Name = "zetacore"

@@ -4,7 +4,7 @@ import (
 	"errors"
 
 	"github.com/prometheus/client_golang/prometheus"
-	"github.com/zeta-chain/zetacore/zetaclient/metrics"
+	"github.com/zeta-chain/node/zetaclient/metrics"
 )
 
 const MetricGroup = "zetaclient"

@@ -5,8 +5,8 @@ import (
 
 	clitestutil "github.com/cosmos/cosmos-sdk/testutil/cli"
 	tmcli "github.com/tendermint/tendermint/libs/cli"
-	"github.com/zeta-chain/zetacore/x/observer/client/cli"
-	observerTypes "github.com/zeta-chain/zetacore/x/observer/types"
+	"github.com/zeta-chain/node/x/observer/client/cli"
+	observerTypes "github.com/zeta-chain/node/x/observer/types"
 	"google.golang.org/grpc/status"
 )
 

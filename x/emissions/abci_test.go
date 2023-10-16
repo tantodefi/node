@@ -17,11 +17,11 @@ import (
 	"github.com/tendermint/tendermint/crypto/ed25519"
 	tmproto "github.com/tendermint/tendermint/proto/tendermint/types"
 	tmtypes "github.com/tendermint/tendermint/types"
-	zetaapp "github.com/zeta-chain/zetacore/app"
-	"github.com/zeta-chain/zetacore/cmd/zetacored/config"
-	"github.com/zeta-chain/zetacore/testutil/simapp"
-	emissionsModule "github.com/zeta-chain/zetacore/x/emissions"
-	emissionsModuleTypes "github.com/zeta-chain/zetacore/x/emissions/types"
+	zetaapp "github.com/zeta-chain/node/app"
+	"github.com/zeta-chain/node/cmd/zetacored/config"
+	"github.com/zeta-chain/node/testutil/simapp"
+	emissionsModule "github.com/zeta-chain/node/x/emissions"
+	emissionsModuleTypes "github.com/zeta-chain/node/x/emissions/types"
 )
 
 func getaZetaFromString(amount string) sdk.Coins {

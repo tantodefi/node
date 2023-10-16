@@ -13,14 +13,14 @@ import (
 	"github.com/stretchr/testify/mock"
 	"github.com/stretchr/testify/require"
 
-	zetacommon "github.com/zeta-chain/zetacore/common"
-	"github.com/zeta-chain/zetacore/server/config"
-	"github.com/zeta-chain/zetacore/testutil/contracts"
-	testkeeper "github.com/zeta-chain/zetacore/testutil/keeper"
-	"github.com/zeta-chain/zetacore/testutil/sample"
-	"github.com/zeta-chain/zetacore/x/fungible/keeper"
-	fungiblekeeper "github.com/zeta-chain/zetacore/x/fungible/keeper"
-	"github.com/zeta-chain/zetacore/x/fungible/types"
+	zetacommon "github.com/zeta-chain/node/common"
+	"github.com/zeta-chain/node/server/config"
+	"github.com/zeta-chain/node/testutil/contracts"
+	testkeeper "github.com/zeta-chain/node/testutil/keeper"
+	"github.com/zeta-chain/node/testutil/sample"
+	"github.com/zeta-chain/node/x/fungible/keeper"
+	fungiblekeeper "github.com/zeta-chain/node/x/fungible/keeper"
+	"github.com/zeta-chain/node/x/fungible/types"
 )
 
 // get a valid chain id independently of the build flag

@@ -3,7 +3,7 @@ package sample
 import (
 	"github.com/cosmos/cosmos-sdk/crypto/keys/ed25519"
 	"github.com/tendermint/tendermint/crypto/secp256k1"
-	"github.com/zeta-chain/zetacore/common"
+	"github.com/zeta-chain/node/common"
 )
 
 func Chain(chainID int64) *common.Chain {

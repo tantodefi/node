@@ -11,7 +11,7 @@ import (
 
 	_ "github.com/cosmos/gogoproto/gogoproto"
 	proto "github.com/gogo/protobuf/proto"
-	_ "github.com/zeta-chain/zetacore/common"
+	_ "github.com/zeta-chain/node/common"
 )
 
 // Reference imports to suppress errors if they are not otherwise used.

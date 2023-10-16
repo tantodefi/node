@@ -6,7 +6,7 @@ import (
 
 	"github.com/btcsuite/btcd/btcjson"
 	"github.com/stretchr/testify/suite"
-	clienttypes "github.com/zeta-chain/zetacore/zetaclient/types"
+	clienttypes "github.com/zeta-chain/node/zetaclient/types"
 	"gorm.io/driver/sqlite"
 	"gorm.io/gorm"
 )

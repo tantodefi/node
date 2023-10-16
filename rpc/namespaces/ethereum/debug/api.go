@@ -36,8 +36,8 @@ import (
 	evmtypes "github.com/evmos/ethermint/x/evm/types"
 	stderrors "github.com/pkg/errors"
 	"github.com/tendermint/tendermint/libs/log"
-	"github.com/zeta-chain/zetacore/rpc/backend"
-	rpctypes "github.com/zeta-chain/zetacore/rpc/types"
+	"github.com/zeta-chain/node/rpc/backend"
+	rpctypes "github.com/zeta-chain/node/rpc/types"
 )
 
 // HandlerT keeps track of the cpu profiler and trace execution

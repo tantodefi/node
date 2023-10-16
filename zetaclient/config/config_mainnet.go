@@ -5,7 +5,7 @@ package config
 
 import (
 	"github.com/btcsuite/btcd/chaincfg"
-	"github.com/zeta-chain/zetacore/common"
+	"github.com/zeta-chain/node/common"
 )
 
 const (

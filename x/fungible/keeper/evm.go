@@ -26,10 +26,10 @@ import (
 	zrc20 "github.com/zeta-chain/protocol-contracts/pkg/contracts/zevm/zrc20.sol"
 	uniswapv2factory "github.com/zeta-chain/protocol-contracts/pkg/uniswap/v2-core/contracts/uniswapv2factory.sol"
 	uniswapv2router02 "github.com/zeta-chain/protocol-contracts/pkg/uniswap/v2-periphery/contracts/uniswapv2router02.sol"
-	zetacommon "github.com/zeta-chain/zetacore/common"
-	"github.com/zeta-chain/zetacore/server/config"
-	"github.com/zeta-chain/zetacore/x/fungible/types"
-	zetaObserverTypes "github.com/zeta-chain/zetacore/x/observer/types"
+	zetacommon "github.com/zeta-chain/node/common"
+	"github.com/zeta-chain/node/server/config"
+	"github.com/zeta-chain/node/x/fungible/types"
+	zetaObserverTypes "github.com/zeta-chain/node/x/observer/types"
 )
 
 // TODO USE string constant

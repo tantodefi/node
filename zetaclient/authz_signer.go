@@ -2,8 +2,8 @@ package zetaclient
 
 import (
 	sdk "github.com/cosmos/cosmos-sdk/types"
-	"github.com/zeta-chain/zetacore/common"
-	crosschaintypes "github.com/zeta-chain/zetacore/x/crosschain/types"
+	"github.com/zeta-chain/node/common"
+	crosschaintypes "github.com/zeta-chain/node/x/crosschain/types"
 )
 
 type AuthZSigner struct {

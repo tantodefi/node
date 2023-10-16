@@ -11,7 +11,7 @@ import (
 	sdk "github.com/cosmos/cosmos-sdk/types"
 	"github.com/stretchr/testify/assert"
 	"github.com/tendermint/tendermint/crypto"
-	"github.com/zeta-chain/zetacore/app"
+	"github.com/zeta-chain/node/app"
 
 	//"os"
 	"testing"

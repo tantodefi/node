@@ -3,8 +3,8 @@ package zetaclient
 import (
 	"github.com/prometheus/client_golang/prometheus"
 	"github.com/rs/zerolog"
-	"github.com/zeta-chain/zetacore/common"
-	observertypes "github.com/zeta-chain/zetacore/x/observer/types"
+	"github.com/zeta-chain/node/common"
+	observertypes "github.com/zeta-chain/node/x/observer/types"
 )
 
 // general chain client

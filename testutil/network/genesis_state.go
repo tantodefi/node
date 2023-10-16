@@ -11,11 +11,11 @@ import (
 	stakingtypes "github.com/cosmos/cosmos-sdk/x/staking/types"
 	evmtypes "github.com/evmos/ethermint/x/evm/types"
 	"github.com/stretchr/testify/assert"
-	cmdcfg "github.com/zeta-chain/zetacore/cmd/zetacored/config"
-	"github.com/zeta-chain/zetacore/common"
-	"github.com/zeta-chain/zetacore/testutil/nullify"
-	"github.com/zeta-chain/zetacore/x/crosschain/types"
-	observerTypes "github.com/zeta-chain/zetacore/x/observer/types"
+	cmdcfg "github.com/zeta-chain/node/cmd/zetacored/config"
+	"github.com/zeta-chain/node/common"
+	"github.com/zeta-chain/node/testutil/nullify"
+	"github.com/zeta-chain/node/x/crosschain/types"
+	observerTypes "github.com/zeta-chain/node/x/observer/types"
 )
 
 func SetupZetaGenesisState(t *testing.T, genesisState map[string]json.RawMessage, codec codec.Codec, observerList []string, setupChainNonces bool) {

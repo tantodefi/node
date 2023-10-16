@@ -27,10 +27,10 @@ import (
 	"github.com/cosmos/cosmos-sdk/server/types"
 	ethlog "github.com/ethereum/go-ethereum/log"
 	ethrpc "github.com/ethereum/go-ethereum/rpc"
-	"github.com/zeta-chain/zetacore/rpc"
+	"github.com/zeta-chain/node/rpc"
 
 	ethermint "github.com/evmos/ethermint/types"
-	"github.com/zeta-chain/zetacore/server/config"
+	"github.com/zeta-chain/node/server/config"
 )
 
 // StartJSONRPC starts the JSON-RPC server

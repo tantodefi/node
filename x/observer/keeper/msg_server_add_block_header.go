@@ -6,8 +6,8 @@ import (
 	cosmoserrors "cosmossdk.io/errors"
 
 	sdk "github.com/cosmos/cosmos-sdk/types"
-	"github.com/zeta-chain/zetacore/common"
-	"github.com/zeta-chain/zetacore/x/observer/types"
+	"github.com/zeta-chain/node/common"
+	"github.com/zeta-chain/node/x/observer/types"
 )
 
 // AddBlockHeader handles adding a block header to the store, through majority voting of observers

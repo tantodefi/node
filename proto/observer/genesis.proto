@@ -9,7 +9,7 @@ import "observer/node_account.proto";
 import "observer/observer.proto";
 import "observer/params.proto";
 
-option go_package = "github.com/zeta-chain/zetacore/x/observer/types";
+option go_package = "github.com/zeta-chain/node/x/observer/types";
 
 message GenesisState {
   repeated Ballot ballots = 1;

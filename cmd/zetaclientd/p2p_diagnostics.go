@@ -19,9 +19,9 @@ import (
 	maddr "github.com/multiformats/go-multiaddr"
 	"github.com/rs/zerolog"
 	"github.com/tendermint/tendermint/crypto/secp256k1"
-	"github.com/zeta-chain/zetacore/common/cosmos"
-	mc "github.com/zeta-chain/zetacore/zetaclient"
-	"github.com/zeta-chain/zetacore/zetaclient/config"
+	"github.com/zeta-chain/node/common/cosmos"
+	mc "github.com/zeta-chain/node/zetaclient"
+	"github.com/zeta-chain/node/zetaclient/config"
 	"gitlab.com/thorchain/tss/go-tss/p2p"
 )
 

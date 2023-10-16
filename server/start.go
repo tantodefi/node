@@ -63,9 +63,9 @@ import (
 
 	"github.com/evmos/ethermint/indexer"
 	ethermint "github.com/evmos/ethermint/types"
-	ethdebug "github.com/zeta-chain/zetacore/rpc/namespaces/ethereum/debug"
-	"github.com/zeta-chain/zetacore/server/config"
-	srvflags "github.com/zeta-chain/zetacore/server/flags"
+	ethdebug "github.com/zeta-chain/node/rpc/namespaces/ethereum/debug"
+	"github.com/zeta-chain/node/server/config"
+	srvflags "github.com/zeta-chain/node/server/flags"
 )
 
 // DBOpener is a function to open `application.db`, potentially with customized options.

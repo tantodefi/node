@@ -11,10 +11,10 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 	tmdb "github.com/tendermint/tm-db"
-	fungiblemocks "github.com/zeta-chain/zetacore/testutil/keeper/mocks/fungible"
-	fungiblemodule "github.com/zeta-chain/zetacore/x/fungible"
-	"github.com/zeta-chain/zetacore/x/fungible/keeper"
-	"github.com/zeta-chain/zetacore/x/fungible/types"
+	fungiblemocks "github.com/zeta-chain/node/testutil/keeper/mocks/fungible"
+	fungiblemodule "github.com/zeta-chain/node/x/fungible"
+	"github.com/zeta-chain/node/x/fungible/keeper"
+	"github.com/zeta-chain/node/x/fungible/types"
 )
 
 type FungibleMockOptions struct {

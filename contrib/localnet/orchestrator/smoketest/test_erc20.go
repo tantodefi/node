@@ -12,7 +12,7 @@ import (
 	"github.com/ethereum/go-ethereum/accounts/abi/bind"
 	ethcommon "github.com/ethereum/go-ethereum/common"
 	zrc20 "github.com/zeta-chain/protocol-contracts/pkg/contracts/zevm/zrc20.sol"
-	"github.com/zeta-chain/zetacore/contrib/localnet/orchestrator/smoketest/contracts/erc20"
+	"github.com/zeta-chain/node/contrib/localnet/orchestrator/smoketest/contracts/erc20"
 )
 
 func (sm *SmokeTest) TestERC20Deposit() {

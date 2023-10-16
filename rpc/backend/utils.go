@@ -39,7 +39,7 @@ import (
 
 	evmtypes "github.com/evmos/ethermint/x/evm/types"
 	"github.com/tendermint/tendermint/proto/tendermint/crypto"
-	"github.com/zeta-chain/zetacore/rpc/types"
+	"github.com/zeta-chain/node/rpc/types"
 )
 
 type txGasAndReward struct {

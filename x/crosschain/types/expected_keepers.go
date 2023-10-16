@@ -8,10 +8,10 @@ import (
 	stakingtypes "github.com/cosmos/cosmos-sdk/x/staking/types"
 	eth "github.com/ethereum/go-ethereum/common"
 	evmtypes "github.com/evmos/ethermint/x/evm/types"
-	"github.com/zeta-chain/zetacore/common"
+	"github.com/zeta-chain/node/common"
 
-	fungibletypes "github.com/zeta-chain/zetacore/x/fungible/types"
-	zetaObserverTypes "github.com/zeta-chain/zetacore/x/observer/types"
+	fungibletypes "github.com/zeta-chain/node/x/fungible/types"
+	zetaObserverTypes "github.com/zeta-chain/node/x/observer/types"
 )
 
 type StakingKeeper interface {
